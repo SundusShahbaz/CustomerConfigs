@@ -1,0 +1,10 @@
+body .bPageTitle .pageTitleIcon, .slds-scope .bPageTitle .pageTitleIcon {
+    display: block;
+}
+body .pbBottomButtons, .slds-scope .pbBottomButtons {
+    margin: .75rem 0rem 0;
+    text-align: right;
+}
+body .pbBottomButtons .pbButtonb, .slds-scope .pbBottomButtons .pbButtonb {
+    text-align: right;
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Send_via_e2a</fullName>
+    <availability>online</availability>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>Send via e2a</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <requireRowSelection>true</requireRowSelection>
+    <url>/apex/ortoo_e2a__EmailClientInit?obj_name=ortoo_e2a__Opportunity_Email_Message__c&amp;p3_lkid={!Opportunity.Id}&amp;retURL=%2F{!Opportunity.Id}</url>
+</WebLink>

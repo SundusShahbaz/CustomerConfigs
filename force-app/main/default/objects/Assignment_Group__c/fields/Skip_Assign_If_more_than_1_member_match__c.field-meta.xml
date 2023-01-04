@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Skip_Assign_If_more_than_1_member_match__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>When checked, this assignment group will skip assigning any records that result in more than 1 matching available user/member</description>
+    <externalId>false</externalId>
+    <inlineHelpText>When checked, this assignment group will skip assigning any records that result in more than 1 matching available user/member</inlineHelpText>
+    <label>Skip Assign If more than 1 user matches</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

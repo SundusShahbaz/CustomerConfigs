@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EC_Auto_Fill_Contact_x_Lookup_Fields__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Contains a list of objectsApiName.FieldApiName pairs which specify which lookup field to use on each Object for the &apos;Auto-Fill Contact in New Emails&apos; functionality on the email client</inlineHelpText>
+    <label>EC Auto-Fill Contact - Lookup Fields</label>
+    <length>2000</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Default_Record_Type</fullName>
+    <active>true</active>
+    <label>Default Record Type</label>
+    <picklistValues>
+        <picklist>Assignment_Action__c</picklist>
+        <values>
+            <fullName>Assign via Omni-Channel - Push to 1 user at a time</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Change Owner</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Assignment_Method2__c</picklist>
+        <values>
+            <fullName>FIFO %2F Ascending</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LIFO %2F Descending</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Assignment_Method3__c</picklist>
+        <values>
+            <fullName>FIFO %2F Ascending</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LIFO %2F Descending</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Assignment_Method_Basis__c</picklist>
+        <values>
+            <fullName>CreatedDate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LastModifiedDate</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Q_assign_Custom_Seq%5F%5Fc</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Assignment_Method__c</picklist>
+        <values>
+            <fullName>FIFO %2F Ascending</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>LIFO %2F Descending</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Assignment_Mode__c</picklist>
+        <values>
+            <fullName>Load Balanced</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Load Balanced %2B Selection Criteria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Points Based - Highest Points</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Points Based - Lowest Points</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Round Robin</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Global_Assignment_Quota_Period__c</picklist>
+        <values>
+            <fullName>Daily</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Hourly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monthly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Weekly</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Processing_Type__c</picklist>
+        <values>
+            <fullName>Pull</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Push</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Push %2B Pull</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Records_Commit_Setting__c</picklist>
+        <values>
+            <fullName>Automatic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Per Assignment Group</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Per Processed Record</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Round_Robin_Quota_Period__c</picklist>
+        <values>
+            <fullName>Daily</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hourly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monthly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Weekly</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Time_Unit__c</picklist>
+        <values>
+            <fullName>Days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Minutes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

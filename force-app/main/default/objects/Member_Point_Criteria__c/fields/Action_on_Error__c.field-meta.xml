@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Action_on_Error__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Action on Error</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Set a value</fullName>
+                <default>false</default>
+                <label>Set a value</label>
+            </value>
+            <value>
+                <fullName>Skip this calculation</fullName>
+                <default>false</default>
+                <label>Skip this calculation</label>
+            </value>
+            <value>
+                <fullName>Skip this member</fullName>
+                <default>false</default>
+                <label>Skip this member</label>
+            </value>
+            <value>
+                <fullName>Skip trying to assign this record</fullName>
+                <default>false</default>
+                <label>Skip trying to assign this record</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

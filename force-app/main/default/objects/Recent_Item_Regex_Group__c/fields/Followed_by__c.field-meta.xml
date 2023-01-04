@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Followed_by__c</fullName>
+    <externalId>false</externalId>
+    <label>Followed by</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>followed by</fullName>
+                <default>false</default>
+                <label>followed by</label>
+            </value>
+            <value>
+                <fullName>or</fullName>
+                <default>false</default>
+                <label>or</label>
+            </value>
+            <value>
+                <fullName>only if followed by</fullName>
+                <default>false</default>
+                <label>only if followed by</label>
+            </value>
+            <value>
+                <fullName>only if not followed by</fullName>
+                <default>false</default>
+                <label>only if not followed by</label>
+            </value>
+            <value>
+                <fullName>ending in</fullName>
+                <default>false</default>
+                <label>ending in</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

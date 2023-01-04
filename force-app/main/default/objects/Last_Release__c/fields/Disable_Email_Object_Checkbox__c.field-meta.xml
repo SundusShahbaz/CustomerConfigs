@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Disable_Email_Object_Checkbox__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Disable Use Central Email Object Check box in Email Service Page</description>
+    <externalId>false</externalId>
+    <label>Disable Email Object Checkbox</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

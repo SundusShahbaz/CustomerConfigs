@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>App_Location__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Stores location of the filter in the app.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Stores location of the filter in the app.</inlineHelpText>
+    <label>App Location</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>GlobalDefaultUserOOOCalendar</fullName>
+                <default>false</default>
+                <label>GlobalDefaultUserOOOCalendar</label>
+            </value>
+            <value>
+                <fullName>UserStatusOOOCalendar</fullName>
+                <default>false</default>
+                <label>UserStatusOOOCalendar</label>
+            </value>
+            <value>
+                <fullName>UserStatusDefaultShiftCalendar</fullName>
+                <default>false</default>
+                <label>UserStatusDefaultShiftCalendar</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

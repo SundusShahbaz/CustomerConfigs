@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Assignment_Method_Basis__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Assignment method basis  (No Longer Used)</description>
+    <externalId>false</externalId>
+    <label>Assignment Method Basis (No Longer Used)</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Created Date</fullName>
+                <default>false</default>
+                <label>Created Date</label>
+            </value>
+            <value>
+                <fullName>Last Modified Date</fullName>
+                <default>false</default>
+                <label>Last Modified Date</label>
+            </value>
+            <value>
+                <fullName>Custom Sequence</fullName>
+                <default>false</default>
+                <label>Custom Sequence</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CustomerSubchannelType__c</fullName>
+    <externalId>false</externalId>
+    <label>Customer/SubchannelType</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Bulk carriers</fullName>
+                <default>false</default>
+                <label>Bulk carriers</label>
+            </value>
+            <value>
+                <fullName>Company Owned &amp; Operated</fullName>
+                <default>false</default>
+                <label>Company Owned &amp; Operated</label>
+            </value>
+            <value>
+                <fullName>Container ships</fullName>
+                <default>false</default>
+                <label>Container ships</label>
+            </value>
+            <value>
+                <fullName>Cruise</fullName>
+                <default>false</default>
+                <label>Cruise</label>
+            </value>
+            <value>
+                <fullName>Dredgers</fullName>
+                <default>false</default>
+                <label>Dredgers</label>
+            </value>
+            <value>
+                <fullName>E-Commerce Online Sales Platform</fullName>
+                <default>false</default>
+                <label>E-Commerce Online Sales Platform</label>
+            </value>
+            <value>
+                <fullName>E-Commerce Online Sales Platform + O2O</fullName>
+                <default>false</default>
+                <label>E-Commerce Online Sales Platform + O2O</label>
+            </value>
+            <value>
+                <fullName>E-Commerce Online to Offline Sales Platform (O2O)</fullName>
+                <default>false</default>
+                <label>E-Commerce Online to Offline Sales Platform (O2O)</label>
+            </value>
+            <value>
+                <fullName>Fishing</fullName>
+                <default>false</default>
+                <label>Fishing</label>
+            </value>
+            <value>
+                <fullName>Franchised Network</fullName>
+                <default>false</default>
+                <label>Franchised Network</label>
+            </value>
+            <value>
+                <fullName>Independent</fullName>
+                <default>false</default>
+                <label>Independent</label>
+            </value>
+            <value>
+                <fullName>Leased Fleet</fullName>
+                <default>false</default>
+                <label>Leased Fleet</label>
+            </value>
+            <value>
+                <fullName>Narrow body</fullName>
+                <default>false</default>
+                <label>Narrow body</label>
+            </value>
+            <value>
+                <fullName>National / Regional Branded Chains</fullName>
+                <default>false</default>
+                <label>National / Regional Branded Chains</label>
+            </value>
+            <value>
+                <fullName>National / Regional chains</fullName>
+                <default>false</default>
+                <label>National / Regional chains</label>
+            </value>
+            <value>
+                <fullName>OEM/EB - Initial fill</fullName>
+                <default>false</default>
+                <label>OEM/EB - Initial fill</label>
+            </value>
+            <value>
+                <fullName>OEM/EB - Service Fill</fullName>
+                <default>false</default>
+                <label>OEM/EB - Service Fill</label>
+            </value>
+            <value>
+                <fullName>Off shore vessels</fullName>
+                <default>false</default>
+                <label>Off shore vessels</label>
+            </value>
+            <value>
+                <fullName>Owned Fleet</fullName>
+                <default>false</default>
+                <label>Owned Fleet</label>
+            </value>
+            <value>
+                <fullName>Regional Jets</fullName>
+                <default>false</default>
+                <label>Regional Jets</label>
+            </value>
+            <value>
+                <fullName>Service Provider</fullName>
+                <default>false</default>
+                <label>Service Provider</label>
+            </value>
+            <value>
+                <fullName>Small work boats</fullName>
+                <default>false</default>
+                <label>Small work boats</label>
+            </value>
+            <value>
+                <fullName>Tankers</fullName>
+                <default>false</default>
+                <label>Tankers</label>
+            </value>
+            <value>
+                <fullName>Tug Boats</fullName>
+                <default>false</default>
+                <label>Tug Boats</label>
+            </value>
+            <value>
+                <fullName>Turbo Prop</fullName>
+                <default>false</default>
+                <label>Turbo Prop</label>
+            </value>
+            <value>
+                <fullName>Turnkey project</fullName>
+                <default>false</default>
+                <label>Turnkey project</label>
+            </value>
+            <value>
+                <fullName>Wide body</fullName>
+                <default>false</default>
+                <label>Wide body</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

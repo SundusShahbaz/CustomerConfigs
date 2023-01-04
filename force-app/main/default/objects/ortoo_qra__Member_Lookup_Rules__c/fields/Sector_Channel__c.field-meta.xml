@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sector_Channel__c</fullName>
+    <externalId>false</externalId>
+    <label>Sector / Channel</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Agriculture (B2B)</fullName>
+                <default>false</default>
+                <label>Agriculture (B2B)</label>
+            </value>
+            <value>
+                <fullName>Aviation</fullName>
+                <default>false</default>
+                <label>Aviation</label>
+            </value>
+            <value>
+                <fullName>Construction (B2B)</fullName>
+                <default>false</default>
+                <label>Construction (B2B)</label>
+            </value>
+            <value>
+                <fullName>Forest</fullName>
+                <default>false</default>
+                <label>Forest</label>
+            </value>
+            <value>
+                <fullName>General Manufacturing</fullName>
+                <default>false</default>
+                <label>General Manufacturing</label>
+            </value>
+            <value>
+                <fullName>Installer</fullName>
+                <default>false</default>
+                <label>Installer</label>
+            </value>
+            <value>
+                <fullName>Marine</fullName>
+                <default>false</default>
+                <label>Marine</label>
+            </value>
+            <value>
+                <fullName>OEM</fullName>
+                <default>false</default>
+                <label>OEM</label>
+            </value>
+            <value>
+                <fullName>Oil and Gas</fullName>
+                <default>false</default>
+                <label>Oil and Gas</label>
+            </value>
+            <value>
+                <fullName>On High-way Commercial Fleet</fullName>
+                <default>false</default>
+                <label>On High-way Commercial Fleet</label>
+            </value>
+            <value>
+                <fullName>Power Generation</fullName>
+                <default>false</default>
+                <label>Power Generation</label>
+            </value>
+            <value>
+                <fullName>Primary Metals</fullName>
+                <default>false</default>
+                <label>Primary Metals</label>
+            </value>
+            <value>
+                <fullName>Process</fullName>
+                <default>false</default>
+                <label>Process</label>
+            </value>
+            <value>
+                <fullName>Rail</fullName>
+                <default>false</default>
+                <label>Rail</label>
+            </value>
+            <value>
+                <fullName>Retailer</fullName>
+                <default>false</default>
+                <label>Retailer</label>
+            </value>
+            <value>
+                <fullName>Wholesaler</fullName>
+                <default>false</default>
+                <label>Wholesaler</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

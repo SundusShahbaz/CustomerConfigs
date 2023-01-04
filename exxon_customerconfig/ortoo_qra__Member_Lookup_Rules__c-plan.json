@@ -1,0 +1,10 @@
+[
+    {
+        "sobject": "ortoo_qra__Member_Lookup_Rules__c",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "ortoo_qra__Member_Lookup_Rules__cs.json"
+        ]
+    }
+]

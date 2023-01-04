@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Assignment_Action__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The action to take when a work item is assigned by Q-assign, such as changing the owner of the work item, or passing it to Omni-Channel to assign</description>
+    <externalId>false</externalId>
+    <label>Assignment Action</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Change Owner</fullName>
+                <default>true</default>
+                <label>Change Owner</label>
+            </value>
+            <value>
+                <fullName>Assign via Omni-Channel - Push to 1 user at a time</fullName>
+                <default>false</default>
+                <label>Assign via Omni-Channel - Push to 1 user at a time</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Member_Lookup_RHS_Lookup_Object__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This field stores the object name to be used on right hand side of the equation. It defaults to User but can be any object that has a lookup to User.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select object from which you want to select a field to be used in this matching rule&apos;s equation. It defaults to User but can be any object that has a lookup to User.</inlineHelpText>
+    <label>Member Lookup RHS Lookup Object</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

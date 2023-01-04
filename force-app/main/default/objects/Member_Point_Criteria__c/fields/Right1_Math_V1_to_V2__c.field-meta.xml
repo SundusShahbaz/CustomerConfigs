@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Right1_Math_V1_to_V2__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Stores the math operator between Left Value 1 and Left Value 2.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the operator between Left Value 1 and Left Value 2. If none is selected, then only Left Value 1 is used in the IF condition&apos;s left hand side.</inlineHelpText>
+    <label>Right1 Math V1 to V2</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>(none)</fullName>
+                <default>false</default>
+                <label>(none)</label>
+            </value>
+            <value>
+                <fullName>+</fullName>
+                <default>false</default>
+                <label>+</label>
+            </value>
+            <value>
+                <fullName>-</fullName>
+                <default>false</default>
+                <label>-</label>
+            </value>
+            <value>
+                <fullName>*</fullName>
+                <default>false</default>
+                <label>*</label>
+            </value>
+            <value>
+                <fullName>/</fullName>
+                <default>false</default>
+                <label>/</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

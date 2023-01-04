@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Right1_Calculate_Using_Hours__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Stores the calculation type for work/business hours when calculating difference between two dates or adding a date and a value. Only applicable if Right1 Value1 and Math V1 to V2 are selected AND one of the Right1 Value1 or Right1 Value2 are date/datetime.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the calculation type for work/business hours when calculating difference between two dates or adding a date and a value. Only applicable if Right1 Value1 and Math V1 to V2 are selected AND one of the Righ1 Value1 or Right1 Value2 are date/datetime.</inlineHelpText>
+    <label>Right1 Calculate Using Hours</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>24/7</fullName>
+                <default>false</default>
+                <label>24/7</label>
+            </value>
+            <value>
+                <fullName>Member&apos;s Working Hours Only</fullName>
+                <default>false</default>
+                <label>Member&apos;s Working Hours Only</label>
+            </value>
+            <value>
+                <fullName>Case Business Hours Only</fullName>
+                <default>false</default>
+                <label>Case Business Hours Only</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

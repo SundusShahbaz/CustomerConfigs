@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GeoJson_File_Url__c</fullName>
+    <description>The URL used to load the GeoJson file that describes with Geodata layer.  Must be a publicly accessible URL that allows cross domain loading.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The URL used to load the GeoJson file that describes with Geodata layer.  Must be a publicly accessible URL that allows cross domain loading.</inlineHelpText>
+    <label>GeoJson File URL</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Url</type>
+</CustomField>

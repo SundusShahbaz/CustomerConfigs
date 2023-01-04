@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Scheduler_Number__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Scheduler Number field will store a unique integer for each Scheduler, so that easily referred to in a unique way (e.g. added in Job name) and prevents accidental duplication of Scheduler records by enforcing a Unique constraint. It allows a customer to change the Name of a Scheduler while still retaining the same unique Scheduler Number.</description>
+    <externalId>true</externalId>
+    <label>Scheduler Number</label>
+    <precision>3</precision>
+    <required>true</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>true</unique>
+</CustomField>

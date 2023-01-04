@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EC_Default_Attachment_Location__c</fullName>
+    <description>Remembering of the last option selected (i.e. use last option as default for next time) per user per parent object</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Default location to select attachment from in email client</inlineHelpText>
+    <label>EC Default Attachment Location</label>
+    <length>1024</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>10</visibleLines>
+</CustomField>

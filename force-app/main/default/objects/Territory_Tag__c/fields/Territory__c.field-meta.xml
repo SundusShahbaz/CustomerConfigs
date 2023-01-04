@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Territory__c</fullName>
+    <description>The territory to which this tag is assigned.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The territory to which this tag is assigned.</inlineHelpText>
+    <label>Territory</label>
+    <referenceTo>Territory__c</referenceTo>
+    <relationshipLabel>Territory Tags</relationshipLabel>
+    <relationshipName>Territory_Tags</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Next_Processing_Attempt_Date__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The next date/time when an attempt will be made to process the related record. This date/time will be used to exclude the related record from processing when the date/time is in the future.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The next date/time when an attempt will be made to process the related record. This date/time will be used to exclude the related record from processing when the date/time is in the future.</inlineHelpText>
+    <label>Next Processing Attempt Date</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

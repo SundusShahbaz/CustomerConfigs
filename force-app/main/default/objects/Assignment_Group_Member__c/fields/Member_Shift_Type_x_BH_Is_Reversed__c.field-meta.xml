@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Member_Shift_Type_x_BH_Is_Reversed__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Reversed - Use hours only OUTSIDE Business Hours</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Reversed - Use hours only OUTSIDE Business Hours</inlineHelpText>
+    <label>Reversed - Use hours only OUTSIDE BH</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

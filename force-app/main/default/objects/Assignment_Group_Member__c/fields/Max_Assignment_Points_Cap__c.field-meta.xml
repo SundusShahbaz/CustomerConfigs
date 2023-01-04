@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Max_Assignment_Points_Cap__c</fullName>
+    <deprecated>false</deprecated>
+    <description>If set, this overrides the Max Assignment Points Cap for
+this Assignment Group. Specifies the maximum number of Load
+Points of Active records for the user, above which, no more
+records will be assigned by this Assignment Group to this user</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If set, this overrides the Max Assignment Points Cap for
+this Assignment Group. Specifies the maximum number of Load
+Points of Active records for the user, above which, no more
+records will be assigned by this Assignment Group to this user</inlineHelpText>
+    <label>Max Assignment Points Cap</label>
+    <precision>10</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

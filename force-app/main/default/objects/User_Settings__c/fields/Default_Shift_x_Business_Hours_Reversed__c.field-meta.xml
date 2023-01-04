@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Default_Shift_x_Business_Hours_Reversed__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>It stores whether user is available inside Business Hours Schedule or outside.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>It stores whether user is available inside Business Hours Schedule or outside.</inlineHelpText>
+    <label>Reversed - Use hours only OUTSIDE BH</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

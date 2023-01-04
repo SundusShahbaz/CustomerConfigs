@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EC_Exclude_From_Address_TO_CC__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>When checked and this Business Unit is set, exclude the specified From address from To and CC of an email created by pressing Reply-All</description>
+    <externalId>false</externalId>
+    <inlineHelpText>When checked and this Business Unit is set, exclude the specified From address from To and CC of an email created by pressing Reply-All</inlineHelpText>
+    <label>Exclude address from TO &amp; CC in ReplyAll</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

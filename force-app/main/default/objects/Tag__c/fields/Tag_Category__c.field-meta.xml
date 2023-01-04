@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tag_Category__c</fullName>
+    <description>The category that this Tag exists within, providing context for its meaning.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The category that this Tag exists within, providing context for its meaning.</inlineHelpText>
+    <label>Tag Category</label>
+    <referenceTo>Tag_Category__c</referenceTo>
+    <relationshipLabel>Tags</relationshipLabel>
+    <relationshipName>Tags</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>true</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

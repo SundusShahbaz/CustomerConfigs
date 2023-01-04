@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Default_BCC_Address__c</fullName>
+    <description>Default BCC address</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Default BCC address for emails sent using the email editor for this business unit</inlineHelpText>
+    <label>Default BCC Address</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Email</type>
+    <unique>false</unique>
+</CustomField>

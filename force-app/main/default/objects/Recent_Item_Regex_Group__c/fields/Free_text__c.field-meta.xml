@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Free_text__c</fullName>
+    <externalId>false</externalId>
+    <label>Free text</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Free text</fullName>
+                <default>false</default>
+                <label>Free text</label>
+            </value>
+            <value>
+                <fullName>any character</fullName>
+                <default>false</default>
+                <label>any character</label>
+            </value>
+            <value>
+                <fullName>any letter a-z</fullName>
+                <default>false</default>
+                <label>any letter a-z</label>
+            </value>
+            <value>
+                <fullName>any lowercase letter a-z</fullName>
+                <default>false</default>
+                <label>any lowercase letter a-z</label>
+            </value>
+            <value>
+                <fullName>any uppercase letter A-Z</fullName>
+                <default>false</default>
+                <label>any uppercase letter A-Z</label>
+            </value>
+            <value>
+                <fullName>any digit 0-9</fullName>
+                <default>false</default>
+                <label>any digit 0-9</label>
+            </value>
+            <value>
+                <fullName>any ASCII word character</fullName>
+                <default>false</default>
+                <label>any ASCII word character</label>
+            </value>
+            <value>
+                <fullName>any whitespace</fullName>
+                <default>false</default>
+                <label>any whitespace</label>
+            </value>
+            <value>
+                <fullName>any word boundary</fullName>
+                <default>false</default>
+                <label>any word boundary</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

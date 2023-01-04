@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Allow_BCC_Deselect__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Allow BCC deselect</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked, users may deselect Default BCC in the email editor. If unchecked, the Default Bcc for this business may not be deselected in the email editor, making it mandatory.</inlineHelpText>
+    <label>Allow BCC Deselect</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

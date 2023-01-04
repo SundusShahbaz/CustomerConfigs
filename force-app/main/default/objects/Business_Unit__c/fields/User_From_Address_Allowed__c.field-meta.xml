@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>User_From_Address_Allowed__c</fullName>
+    <defaultValue>true</defaultValue>
+    <description>User from address allowed</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked, current user&apos;s email from-address(es) will be available in the email editor for this business unit. If unchecked, current user&apos;s email from-address(es) will not be available.</inlineHelpText>
+    <label>Allow User From-Address</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Set_Business_Unit_from_current_record__c</fullName>
+    <defaultValue>true</defaultValue>
+    <externalId>false</externalId>
+    <inlineHelpText>When sending an email from a related
+list, default to the Business Unit to that of the current record (e.g. the Lead being send
+from) if a lookup to Business Unit exists on the object (e.g. Lead object). This overrides
+the User&apos;s Default Business Unit.</inlineHelpText>
+    <label>Set Business Unit from current record</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

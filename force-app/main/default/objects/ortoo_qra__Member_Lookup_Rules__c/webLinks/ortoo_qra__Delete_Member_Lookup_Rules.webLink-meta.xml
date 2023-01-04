@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ortoo_qra__Delete_Member_Lookup_Rules</fullName>
+    <availability>online</availability>
+    <displayType>massActionButton</displayType>
+    <height>600</height>
+    <linkType>page</linkType>
+    <masterLabel>Delete Member Lookup Rules</masterLabel>
+    <openType>sidebar</openType>
+    <page>ortoo_qra__Mass_Delete_Member_Lookup_Rules</page>
+    <protected>false</protected>
+    <requireRowSelection>true</requireRowSelection>
+</WebLink>

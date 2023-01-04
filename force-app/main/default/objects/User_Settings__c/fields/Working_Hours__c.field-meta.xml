@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Working_Hours__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Stores the type of working hours to be used for this user when calculation is performed based on member&apos;s working hours (such as in Member Point scoring rules).</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the type of working hours to be used for this user when calculation is performed based on member&apos;s working hours (such as in Member Point scoring rules).</inlineHelpText>
+    <label>Working Hours (No Longer Used)</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>24/7</fullName>
+                <default>false</default>
+                <label>24/7</label>
+            </value>
+            <value>
+                <fullName>Business Hours</fullName>
+                <default>false</default>
+                <label>Business Hours</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

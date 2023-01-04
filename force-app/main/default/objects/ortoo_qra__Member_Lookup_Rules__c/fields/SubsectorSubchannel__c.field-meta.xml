@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SubsectorSubchannel__c</fullName>
+    <externalId>false</externalId>
+    <label>Subsector / Subchannel</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Agriculture (B2B)</fullName>
+                <default>false</default>
+                <label>Agriculture (B2B)</label>
+            </value>
+            <value>
+                <fullName>Auto Parts</fullName>
+                <default>false</default>
+                <label>Auto Parts</label>
+            </value>
+            <value>
+                <fullName>Cement</fullName>
+                <default>false</default>
+                <label>Cement</label>
+            </value>
+            <value>
+                <fullName>Coal</fullName>
+                <default>false</default>
+                <label>Coal</label>
+            </value>
+            <value>
+                <fullName>Commercial</fullName>
+                <default>false</default>
+                <label>Commercial</label>
+            </value>
+            <value>
+                <fullName>Cooling and Refrigeration</fullName>
+                <default>false</default>
+                <label>Cooling and Refrigeration</label>
+            </value>
+            <value>
+                <fullName>Dealers</fullName>
+                <default>false</default>
+                <label>Dealers</label>
+            </value>
+            <value>
+                <fullName>Deep Sea Vessels</fullName>
+                <default>false</default>
+                <label>Deep Sea Vessels</label>
+            </value>
+            <value>
+                <fullName>Diesel Marine Power Plants</fullName>
+                <default>false</default>
+                <label>Diesel Marine Power Plants</label>
+            </value>
+            <value>
+                <fullName>E-Commerce</fullName>
+                <default>false</default>
+                <label>E-Commerce</label>
+            </value>
+            <value>
+                <fullName>Factory Fill</fullName>
+                <default>false</default>
+                <label>Factory Fill</label>
+            </value>
+            <value>
+                <fullName>Food</fullName>
+                <default>false</default>
+                <label>Food</label>
+            </value>
+            <value>
+                <fullName>Fuels Stations</fullName>
+                <default>false</default>
+                <label>Fuels Stations</label>
+            </value>
+            <value>
+                <fullName>Gas Engine - All Others</fullName>
+                <default>false</default>
+                <label>Gas Engine - All Others</label>
+            </value>
+            <value>
+                <fullName>Gas Engine - Landfill &amp; Bio Gas</fullName>
+                <default>false</default>
+                <label>Gas Engine - Landfill &amp; Bio Gas</label>
+            </value>
+            <value>
+                <fullName>Gas Turbines</fullName>
+                <default>false</default>
+                <label>Gas Turbines</label>
+            </value>
+            <value>
+                <fullName>General Aviation</fullName>
+                <default>false</default>
+                <label>General Aviation</label>
+            </value>
+            <value>
+                <fullName>Heavy Duty</fullName>
+                <default>false</default>
+                <label>Heavy Duty</label>
+            </value>
+            <value>
+                <fullName>High Speed</fullName>
+                <default>false</default>
+                <label>High Speed</label>
+            </value>
+            <value>
+                <fullName>Hydroelectric</fullName>
+                <default>false</default>
+                <label>Hydroelectric</label>
+            </value>
+            <value>
+                <fullName>Infrastructure</fullName>
+                <default>false</default>
+                <label>Infrastructure</label>
+            </value>
+            <value>
+                <fullName>Inland and Coastal</fullName>
+                <default>false</default>
+                <label>Inland and Coastal</label>
+            </value>
+            <value>
+                <fullName>Iron</fullName>
+                <default>false</default>
+                <label>Iron</label>
+            </value>
+            <value>
+                <fullName>Light Duty</fullName>
+                <default>false</default>
+                <label>Light Duty</label>
+            </value>
+            <value>
+                <fullName>Low Speed</fullName>
+                <default>false</default>
+                <label>Low Speed</label>
+            </value>
+            <value>
+                <fullName>Lube Change Centers</fullName>
+                <default>false</default>
+                <label>Lube Change Centers</label>
+            </value>
+            <value>
+                <fullName>Machine Shops</fullName>
+                <default>false</default>
+                <label>Machine Shops</label>
+            </value>
+            <value>
+                <fullName>Mass Merchant</fullName>
+                <default>false</default>
+                <label>Mass Merchant</label>
+            </value>
+            <value>
+                <fullName>Military</fullName>
+                <default>false</default>
+                <label>Military</label>
+            </value>
+            <value>
+                <fullName>Mining - Coal</fullName>
+                <default>false</default>
+                <label>Mining - Coal</label>
+            </value>
+            <value>
+                <fullName>Mining - Metals</fullName>
+                <default>false</default>
+                <label>Mining - Metals</label>
+            </value>
+            <value>
+                <fullName>Mining - Oils Sands</fullName>
+                <default>false</default>
+                <label>Mining - Oils Sands</label>
+            </value>
+            <value>
+                <fullName>Mixed</fullName>
+                <default>false</default>
+                <label>Mixed</label>
+            </value>
+            <value>
+                <fullName>Non-ferrous</fullName>
+                <default>false</default>
+                <label>Non-ferrous</label>
+            </value>
+            <value>
+                <fullName>Nuclear</fullName>
+                <default>false</default>
+                <label>Nuclear</label>
+            </value>
+            <value>
+                <fullName>Off-shore</fullName>
+                <default>false</default>
+                <label>Off-shore</label>
+            </value>
+            <value>
+                <fullName>Oil &amp; Gas - All Subsectors</fullName>
+                <default>false</default>
+                <label>Oil &amp; Gas - All Subsectors</label>
+            </value>
+            <value>
+                <fullName>Other Forest</fullName>
+                <default>false</default>
+                <label>Other Forest</label>
+            </value>
+            <value>
+                <fullName>Other General Manufacturing</fullName>
+                <default>false</default>
+                <label>Other General Manufacturing</label>
+            </value>
+            <value>
+                <fullName>Other Non-Renewables</fullName>
+                <default>false</default>
+                <label>Other Non-Renewables</label>
+            </value>
+            <value>
+                <fullName>Other Primary Metals</fullName>
+                <default>false</default>
+                <label>Other Primary Metals</label>
+            </value>
+            <value>
+                <fullName>Other Rail</fullName>
+                <default>false</default>
+                <label>Other Rail</label>
+            </value>
+            <value>
+                <fullName>Other Renewables</fullName>
+                <default>false</default>
+                <label>Other Renewables</label>
+            </value>
+            <value>
+                <fullName>Others Process Industries</fullName>
+                <default>false</default>
+                <label>Others Process Industries</label>
+            </value>
+            <value>
+                <fullName>Packaging Paper</fullName>
+                <default>false</default>
+                <label>Packaging Paper</label>
+            </value>
+            <value>
+                <fullName>Petrochemical - Refining</fullName>
+                <default>false</default>
+                <label>Petrochemical - Refining</label>
+            </value>
+            <value>
+                <fullName>Plastics</fullName>
+                <default>false</default>
+                <label>Plastics</label>
+            </value>
+            <value>
+                <fullName>Production</fullName>
+                <default>false</default>
+                <label>Production</label>
+            </value>
+            <value>
+                <fullName>Pulp &amp; Paper</fullName>
+                <default>false</default>
+                <label>Pulp &amp; Paper</label>
+            </value>
+            <value>
+                <fullName>Quarrying</fullName>
+                <default>false</default>
+                <label>Quarrying</label>
+            </value>
+            <value>
+                <fullName>Residential</fullName>
+                <default>false</default>
+                <label>Residential</label>
+            </value>
+            <value>
+                <fullName>Steel</fullName>
+                <default>false</default>
+                <label>Steel</label>
+            </value>
+            <value>
+                <fullName>Transmission</fullName>
+                <default>false</default>
+                <label>Transmission</label>
+            </value>
+            <value>
+                <fullName>Truck Stops</fullName>
+                <default>false</default>
+                <label>Truck Stops</label>
+            </value>
+            <value>
+                <fullName>Vehicle Care Centers</fullName>
+                <default>false</default>
+                <label>Vehicle Care Centers</label>
+            </value>
+            <value>
+                <fullName>Well services</fullName>
+                <default>false</default>
+                <label>Well services</label>
+            </value>
+            <value>
+                <fullName>Wind</fullName>
+                <default>false</default>
+                <label>Wind</label>
+            </value>
+            <value>
+                <fullName>Wood Processing</fullName>
+                <default>false</default>
+                <label>Wood Processing</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

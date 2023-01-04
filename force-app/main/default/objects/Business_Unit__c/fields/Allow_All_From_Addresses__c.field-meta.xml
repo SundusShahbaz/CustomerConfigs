@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Allow_All_From_Addresses__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Allow all OWEA from addresses</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked, all organisation wide email from-addresses will be available in the mail editor for this business unit. If unchecked, only Allowed From-Addresses for this business unit will be available.</inlineHelpText>
+    <label>Allow All From-Addresses</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

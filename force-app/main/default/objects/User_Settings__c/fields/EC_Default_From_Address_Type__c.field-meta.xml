@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EC_Default_From_Address_Type__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>The email from-address set by default in the email editor.</inlineHelpText>
+    <label>EC Default From Address Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>user</fullName>
+                <default>true</default>
+                <label>user</label>
+            </value>
+            <value>
+                <fullName>user-alt</fullName>
+                <default>false</default>
+                <label>user-alt</label>
+            </value>
+            <value>
+                <fullName>owea</fullName>
+                <default>false</default>
+                <label>owea</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

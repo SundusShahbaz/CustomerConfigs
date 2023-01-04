@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Scheduler__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Choose the Scheduler this Assignment Group belongs to. This Assignment Group will then run as part of that Scheduler. If no Scheduler is selected then this Assignment Group will not run automatically as part of a Scheduler.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Choose the Scheduler this Assignment Group belongs to. This Assignment Group will then run as part of that Scheduler. If no Scheduler is selected then this Assignment Group will not run automatically as part of a Scheduler.</inlineHelpText>
+    <label>Scheduler</label>
+    <referenceTo>Assignment_Configuration__c</referenceTo>
+    <relationshipLabel>QA Assignment Groups</relationshipLabel>
+    <relationshipName>QA_Assignment_Groups</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

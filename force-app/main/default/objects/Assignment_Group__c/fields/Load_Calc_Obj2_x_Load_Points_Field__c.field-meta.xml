@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Load_Calc_Obj2_x_Load_Points_Field__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This field stores a &apos;numeric&apos; field, of Load Calculation Object 2, that describes the Active load that is added by any record of Load Calculation Object 2, if respective ARC is met</description>
+    <externalId>false</externalId>
+    <label>Load Calc Obj2 - Load Points Field</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

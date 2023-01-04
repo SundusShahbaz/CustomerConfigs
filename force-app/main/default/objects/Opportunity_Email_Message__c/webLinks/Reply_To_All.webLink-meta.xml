@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reply_To_All</fullName>
+    <availability>online</availability>
+    <description>Email reply to all</description>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>Reply To All</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <url>/apex/ortoo_e2a__EmailToAnythingAuthorInit?id={!Opportunity_Email_Message__c.Id}&amp;replyToAll=1</url>
+</WebLink>

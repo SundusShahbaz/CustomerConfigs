@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Load_Calc_Obj3_x_Owner_Field__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This field stores the user lookup field, which is used to determine the owner of third Load Calculation Object 3 records</description>
+    <externalId>false</externalId>
+    <label>Load Calculation Object3 - Owner Field</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

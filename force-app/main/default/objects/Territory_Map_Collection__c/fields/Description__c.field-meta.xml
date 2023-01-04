@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Description__c</fullName>
+    <description>A description of what this Map Collection represents (e.g. Maps relating to the split of geographical territories for handling Leads / Representations of the geographical areas that Distributers support)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>A description of what this Map Collection represents (e.g. Maps relating to the split of geographical territories for handling Leads / Representations of the geographical areas that Distributers support)</inlineHelpText>
+    <label>Description</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

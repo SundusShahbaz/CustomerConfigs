@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HTML_Body_4__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>This field will be used to extend the email body limit in case characters are above the base email body field limit</inlineHelpText>
+    <label>HTML Body 4</label>
+    <length>131072</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

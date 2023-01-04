@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>XXQueue89_Queued_Email_Message</fullName>
+    <filterScope>Queue</filterScope>
+    <label>XXQueue89</label>
+    <queue>XXQueue89</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

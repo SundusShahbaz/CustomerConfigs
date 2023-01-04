@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WO_Business_Hours__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Stores the Id of Business Hours to use. It is only applicable when Working Hours field has &quot;Business Hours&quot; selected as its value. When applied, the selected business hours are used for this user&apos;s working hours calculations elsewhere in Q-assign.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the Id of Business Hours to use. It is only applicable when Working Hours field has &quot;Business Hours&quot; selected as its value. When applied, the selected business hours are used for this user&apos;s working hours calculations elsewhere in Q-assign.</inlineHelpText>
+    <label>Business Hours (No Longer Used)</label>
+    <referenceTo>BusinessHours</referenceTo>
+    <relationshipLabel>QA User Settings (Business Hours)</relationshipLabel>
+    <relationshipName>User_Settings</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

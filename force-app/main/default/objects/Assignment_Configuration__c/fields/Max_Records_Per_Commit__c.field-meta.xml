@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Max_Records_Per_Commit__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>The max number of records (Leads, Cases, etc.) to commit in one batch. A higher number lead to higher performance but may hit governor limits, e.g. triggers runs extra queries. A lower number can prevent hitting governor limits but will process slowly.</inlineHelpText>
+    <label>Max Records Per Commit</label>
+    <precision>6</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

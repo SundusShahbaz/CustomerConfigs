@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultLandingTab>standard-home</defaultLandingTab>
+    <description>Dynamically assign cases, leads, opportunities, contacts, tasks and more</description>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <label>Ortoo: Q-assign</label>
+    <logo>ortoo/ortoo_qassign_icon.png</logo>
+    <tabs>Assignment_Configuration</tabs>
+    <tabs>Assignment_Group__c</tabs>
+    <tabs>Unreviewed_Assignments</tabs>
+    <tabs>User_Assignment_Status</tabs>
+    <tabs>QA_Users_Classic</tabs>
+    <tabs>QA_Analytics</tabs>
+    <tabs>About</tabs>
+</CustomApplication>

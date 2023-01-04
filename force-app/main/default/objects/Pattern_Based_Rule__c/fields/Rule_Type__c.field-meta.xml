@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rule_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Rule Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Field Assignment</fullName>
+                <default>false</default>
+                <label>Field Assignment</label>
+            </value>
+            <value>
+                <fullName>Lookup Assignment</fullName>
+                <default>false</default>
+                <label>Lookup Assignment</label>
+            </value>
+            <value>
+                <fullName>Owner Assignment</fullName>
+                <default>false</default>
+                <label>Owner Assignment</label>
+            </value>
+            <value>
+                <fullName>Fixed Value Lookup Assignment</fullName>
+                <default>false</default>
+                <label>Fixed Value Lookup Assignment</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

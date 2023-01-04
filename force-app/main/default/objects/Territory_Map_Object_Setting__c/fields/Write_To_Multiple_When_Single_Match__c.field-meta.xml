@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Write_To_Multiple_When_Single_Match__c</fullName>
+    <defaultValue>true</defaultValue>
+    <description>When a single territory match is found, should the value be written into the target multiple fields?</description>
+    <externalId>false</externalId>
+    <inlineHelpText>When a single territory match is found, should the value be written into the target multiple fields?</inlineHelpText>
+    <label>Write to &quot;Multiple&quot; when a single match?</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

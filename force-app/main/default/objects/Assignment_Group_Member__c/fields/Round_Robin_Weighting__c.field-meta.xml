@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Round_Robin_Weighting__c</fullName>
+    <deprecated>false</deprecated>
+    <description>When using Round-Robin mode, this setting specifies if
+the user should get more or less records assigned compared to
+other users/members. 100% is the default. e.g. a setting of
+110% would mean that this user would get an extra record for
+every 10 records assigned to other users that have 100% set</description>
+    <externalId>false</externalId>
+    <label>Round Robin Weighting</label>
+    <precision>5</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Left1_Treat_blank_values_as_x_Fixed_Val__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The fixed value if &quot;Left1 Treat blank values as&quot; is &quot;Fixed Value&quot;</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The fixed value if &quot;Left1 Treat blank values as&quot; is &quot;Fixed Value&quot;</inlineHelpText>
+    <label>Left1 Treat blank values as - Fixed Val</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

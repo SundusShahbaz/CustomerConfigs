@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Number_of_Times_to_Run_This_Rule__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This field specifies how many times the point scoring rule will run.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>&apos;Only Once Per User&apos; means the point scoring rule will run once for each matching user. &apos;Once Per each Member Matching Rule record matched to the User&apos; means the rule will run as many times as the number of records a user is matched to by  Matching Rules</inlineHelpText>
+    <label>Number of Times to Run This Rule</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Only Once Per User</fullName>
+                <default>false</default>
+                <label>Only Once Per User</label>
+            </value>
+            <value>
+                <fullName>Once Per each Member Matching Rule record matched to the User</fullName>
+                <default>false</default>
+                <label>Once Per each Member Matching Rule record matched to the User</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

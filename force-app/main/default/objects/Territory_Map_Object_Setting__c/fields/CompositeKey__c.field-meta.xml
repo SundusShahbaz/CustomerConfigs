@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CompositeKey__c</fullName>
+    <description>A composite key of TerritoryCollectionMapId and ObjectAPIName, in lowercase, in the format TerritoryCollectionMapId-ObjectApiName</description>
+    <externalId>false</externalId>
+    <inlineHelpText>A composite key of TerritoryCollectionMapId and ObjectAPIName, in lowercase, in the format TerritoryCollectionMapId-ObjectApiName</inlineHelpText>
+    <label>Composite Key</label>
+    <length>79</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

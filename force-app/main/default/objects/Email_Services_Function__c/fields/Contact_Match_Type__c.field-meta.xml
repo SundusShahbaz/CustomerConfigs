@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Match_Type__c</fullName>
+    <description>Contact match type</description>
+    <externalId>false</externalId>
+    <label>Contact Match Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Earliest Created</fullName>
+                <default>false</default>
+                <label>Earliest Created</label>
+            </value>
+            <value>
+                <fullName>Latest Created</fullName>
+                <default>false</default>
+                <label>Latest Created</label>
+            </value>
+            <value>
+                <fullName>Latest Modified</fullName>
+                <default>false</default>
+                <label>Latest Modified</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

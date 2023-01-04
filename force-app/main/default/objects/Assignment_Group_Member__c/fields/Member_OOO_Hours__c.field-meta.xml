@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Member_OOO_Hours__c</fullName>
+    <defaultValue>&apos;User\&apos;s Default OOO entries&apos;</defaultValue>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Member OOO Source</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>User&apos;s Default OOO entries</fullName>
+                <default>false</default>
+                <label>User&apos;s Default OOO entries</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

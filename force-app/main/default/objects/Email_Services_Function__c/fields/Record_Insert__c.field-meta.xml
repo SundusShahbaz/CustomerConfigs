@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Record_Insert__c</fullName>
+    <description>Target object record insert status</description>
+    <externalId>false</externalId>
+    <label>Record Insert</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Insert Not Allowed</fullName>
+                <default>false</default>
+                <label>Insert Not Allowed</label>
+            </value>
+            <value>
+                <fullName>Insert Allowed</fullName>
+                <default>false</default>
+                <label>Insert Allowed</label>
+            </value>
+            <value>
+                <fullName>Only Manual Insert Allowed</fullName>
+                <default>false</default>
+                <label>Only Manual Insert Allowed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

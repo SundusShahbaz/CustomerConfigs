@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PostalCode__c</fullName>
+    <description>Defines the Postal Code for this Geo data layer, being either a literal value (e.g. NW1 1AA) or the name of a field in the GeoJson file&apos;s feature properties (e.g. {postalCode})</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Defines the Postal Code for this Geo data layer, being either a literal value (e.g. NW1 1AA) or the name of a field in the GeoJson file&apos;s feature properties (e.g. {postalCode})</inlineHelpText>
+    <label>PostalCode</label>
+    <length>50</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

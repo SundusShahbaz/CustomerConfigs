@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EC_Hide_To_Field__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Hide To Field in Email Client if checked</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If Checked &quot;To&quot; Field will be combined with &quot;Additional To&quot; Field in Email Client</inlineHelpText>
+    <label>EC Hide To Field</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

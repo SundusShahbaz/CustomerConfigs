@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Next_Steps__c</fullName>
+    <externalId>false</externalId>
+    <label>Next Steps</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Close</fullName>
+                <default>false</default>
+                <label>Close</label>
+            </value>
+            <value>
+                <fullName>Issue Refund</fullName>
+                <default>false</default>
+                <label>Issue Refund</label>
+            </value>
+            <value>
+                <fullName>Send Out Part</fullName>
+                <default>false</default>
+                <label>Send Out Part</label>
+            </value>
+            <value>
+                <fullName>Pass to 3rd Line</fullName>
+                <default>false</default>
+                <label>Pass to 3rd Line</label>
+            </value>
+            <value>
+                <fullName>Request Address</fullName>
+                <default>false</default>
+                <label>Request Address</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Member_Sel_Rule_x_Last_Eval_Time__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The last time this Assignment Group&apos;s Member Selection Rules were run.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The last time this Assignment Group&apos;s Member Selection Rules were run.</inlineHelpText>
+    <label>Last Evaluated Time</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

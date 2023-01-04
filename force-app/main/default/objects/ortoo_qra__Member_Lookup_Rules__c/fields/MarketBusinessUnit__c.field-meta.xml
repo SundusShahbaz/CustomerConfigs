@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MarketBusinessUnit__c</fullName>
+    <externalId>false</externalId>
+    <label>Market Business Unit</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>North AP</fullName>
+                <default>false</default>
+                <label>North AP</label>
+            </value>
+            <value>
+                <fullName>South AP</fullName>
+                <default>false</default>
+                <label>South AP</label>
+            </value>
+            <value>
+                <fullName>North America</fullName>
+                <default>false</default>
+                <label>North America</label>
+            </value>
+            <value>
+                <fullName>Latin America</fullName>
+                <default>false</default>
+                <label>Latin America</label>
+            </value>
+            <value>
+                <fullName>EAME</fullName>
+                <default>false</default>
+                <label>EAME</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

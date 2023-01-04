@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Match_string__c</fullName>
+    <externalId>false</externalId>
+    <label>Match string</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Match a string which contains</fullName>
+                <default>false</default>
+                <label>Match a string which contains</label>
+            </value>
+            <value>
+                <fullName>Match a string which starts with</fullName>
+                <default>false</default>
+                <label>Match a string which starts with</label>
+            </value>
+            <value>
+                <fullName>Match a string which ends in</fullName>
+                <default>false</default>
+                <label>Match a string which ends in</label>
+            </value>
+            <value>
+                <fullName>Match a string which starts and ends in</fullName>
+                <default>false</default>
+                <label>Match a string which starts and ends in</label>
+            </value>
+            <value>
+                <fullName>Match a string that comes after</fullName>
+                <default>false</default>
+                <label>Match a string that comes after</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CollectionCompositeKey__c</fullName>
+    <description>A composite key used as an index for the location record based on the Territory Map Collection.</description>
+    <externalId>true</externalId>
+    <inlineHelpText>A composite key used as an index for the location record based on the Territory Map Collection.</inlineHelpText>
+    <label>Collection Composite Key</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

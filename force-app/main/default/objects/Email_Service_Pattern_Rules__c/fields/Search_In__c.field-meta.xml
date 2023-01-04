@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Search_In__c</fullName>
+    <externalId>false</externalId>
+    <label>Search In</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Subject</fullName>
+                <default>false</default>
+                <label>Subject</label>
+            </value>
+            <value>
+                <fullName>Header</fullName>
+                <default>false</default>
+                <label>Header</label>
+            </value>
+            <value>
+                <fullName>Body</fullName>
+                <default>false</default>
+                <label>Body</label>
+            </value>
+            <value>
+                <fullName>Subject &amp; Body</fullName>
+                <default>false</default>
+                <label>Subject &amp; Body</label>
+            </value>
+            <value>
+                <fullName>Subject &amp; Body &amp; Header</fullName>
+                <default>false</default>
+                <label>Subject &amp; Body &amp; Header</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
